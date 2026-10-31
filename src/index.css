@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-synthesis: none; text-rendering: optimizeLegibility; }
+html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+body { margin: 0; background: #f8fafc; color: #172033; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { background: #ddd6fe; color: #312e81; }
+.section-wrap { @apply mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20; }
+.social-link { @apply flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white transition hover:-translate-y-1 hover:border-violet hover:text-violet; }
